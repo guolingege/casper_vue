@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "webpack": "webpack --config ./src/webpack.config.js"
+    "webpack": "webpack --config ./webpack.config.js"
   },
   "dependencies": {
     "@types/superagent": "^4.1.14",

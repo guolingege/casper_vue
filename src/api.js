@@ -4,7 +4,7 @@
 
 let ACCESS_TOKEN = '';
 
-function generateBaseParams(seedHex) {
+export function generateBaseParams(seedHex) {
     console.log('type of seedHex:' + (typeof seedHex));
     console.log(seedHex);
     const BitGo = require('bitgo').BitGo;
