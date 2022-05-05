@@ -5,13 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <title>aaabbb</title>
   </head>
   <body>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
-    <!-- built files will be auto injected -->
+    <script src="api.js"></script>
+    <div>
+      <label for="picCallbackParamInput"></label><input name="picCallbackParamInput" id="picCallbackParamInput" type="text">
+      <br/>
+      <button name="picCallbackButton" type="button" onclick="generateBaseParams('cce6babff8133f841361540de4ad73946c51e215ef338fdb08ac24e91020eb6493ec254c5ad59b79195f4fb2ef7044b8dd6800380f663c56eee27934e3453fd5')">生成基本参数</button>
+    </div>
   </body>
 </html>
